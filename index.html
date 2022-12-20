@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<h1>Market Place</h1>
+
     <div class="container">
         <img src="./assets/menu.png" class="menu-icon" alt="Open" onclick="openmenu()">
         <div class="menu-box" id="menu">
@@ -23,6 +25,41 @@
             </div>
         </div>
     </div>
+
+    <section class="categories" id="categories">
+        <div class="wrapper">
+            <h2>Categories</h2>
+            <p>Explore our range of hand-made toys</p>
+            <ul class="categoryGallery">
+                <li class="items itemOne">
+                    <a href="">
+                        <img src="./assets/safari-trio.jpg" alt="Hand-carved safari animal toys">
+                        <h4>Safari</h4>
+                        <p>Land-dwelling African Favourites</p>
+                    </a>
+                </li>
+                <li class="items itemTwo">
+                    <a href="">
+                        <img src="./assets/ocean-trio.jpg" alt="A collection of ocean-themed animal toys">
+                        <h4>Ocean</h4>
+                        <p>Adorable Aquatic Characters</p>
+                    </a>
+                </li>
+                <li class="items itemThree">
+                    <a href="">
+                        <img src="./assets/dino-trio.jpg" alt="Hand-carved dinosaur toys for kids">
+                        <h4>Dinos</h4>
+                        <p>Meet These Prehistoric Pals</p>
+                    </a>
+                </li>
+                <li class="items itemFour">
+                    <a href="">
+                        <img src="./assets/sale.jpg" alt="A toddler pulling two wooden animals on wheels">
+                        <h4>Sale</h4>
+                        <p>Act Quickly and Grab These Bargains</p>
+                    </a>
+                </li>
+            </ul>
     
     <!-- Trigger/Open The Modal -->
     <button id="myBtn"><img src="./assets/checkout.svg" alt="Checkout"></button>
@@ -38,7 +75,57 @@
     
     </div>
     
-    
+        <footer>
+            <div class="footerContainer">
+                <div class="footerColumn">
+                    <h2>Contact Us</h2>
+                    <div class="footerColumnContact">
+                        <p>6591 Orchard Street, NY 10002, United States</p>
+                        <p>Email:contact@onepro.co</p>
+                        <p>Phone 01: +00 (9) 123 3456 789</p>
+                        <p>Phone 01: +00 (9) 123 3456 789</p>
+                        <p>Phone 01: +00 (9) 123 3456 789</p>
+        
+                    </div>
+                    <div class="footerColumnSocial">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+        
+                </div>
+                <div class="footerColumn">
+                    <h2>About Us</h2>
+                    <ul class="footerColumnPosts">
+                        <li>
+                            <a href="">Careers </a>
+                        </li>
+                        <li>
+                            <a href="">Our charity</a>
+                        </li>
+                        <li>
+                            <a href="">Investor Relations</a>
+                        </li>
+                        <li>
+                            <a href="">Press Releases</a>
+                        </li>
+                        <li>
+                            <a href="">Market Place Science</a>
+                        </li>
+                    </ul>
+        
+                </div>
+                <div class="footerColumn">
+                    <h2>Mailing list</h2>
+                    <p class="footerEmail">Sign up for emails and notifications below</p>
+                    <div>
+                        <input type="text">
+                        <button></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footerCompany">Market Place 2022</div>
+        </footer>
     
     <script>
         var menu = document.getElementById("menu");
